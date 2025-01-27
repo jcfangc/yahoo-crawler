@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yahoo"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "yahoo", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+playwright = "^1.49.1"
+aiofiles = "^24.1.0"
+loguru = "^0.7.3"
+aiorwlock = "^1.5.0"
+pydantic = "^2.10.6"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

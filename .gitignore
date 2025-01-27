@@ -1,0 +1,31 @@
+# Ignore logs
+logs/*
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Poetry files
+poetry.lock
+
+# Ignore virtual environments
+.env/
+.venv/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore output files
+*.csv
+
+# Ignore specific project folders
+anchor/
+analyze/
+comments/
